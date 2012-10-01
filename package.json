@@ -1,0 +1,27 @@
+{
+  "name": "docram",
+  "version": "0.1.0",
+  "description": "Documentation generating made easy.",
+  "main": "docram.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hupotronic/docram"
+  },
+  "keywords": [
+    "documentation",
+    "docs",
+    "generator"
+  ],
+  "dependencies": {
+    "commander"     : "1.0.x",
+    "glob-whatev"   : "0.1.x",
+    "highlight"     : "0.2.x",
+    "jade"          : "0.27.x",
+    "node-markdown" : "0.1.x"
+  },
+  "author": "Hupo",
+  "license": "MIT"
+}

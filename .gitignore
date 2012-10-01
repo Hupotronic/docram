@@ -1,0 +1,6 @@
+bin/
+docs/
+testfiles/
+node_modules/
+*.sublime*
+app.js

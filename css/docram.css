@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic|Source+Code+Pro:400,500);
+
+body {
+	font-family: "Source Sans Pro";
+	font-size: 12pt;
+	margin: 0;
+}
+
+code {
+	font-family: Consolas, "Source Code Pro", monospace;
+	font-size: 10pt;
+	line-height: 1.5;
+}
+
+table {
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+a, a:active, a:visited, h1 {
+	color: #9E3286;
+	text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+td.docs, th.docs {
+	min-width: 450px;
+	max-width: 450px;
+	min-height: 5px;
+	padding: 10px 25px 1px 50px;
+	overflow-x: hidden;
+	vertical-align: top;
+	text-align: left;
+	background: url("cream_dust.png");
+}
+
+.docs p code {
+	background: #eee;
+	padding: 1px 2px;
+	margin: 0 1px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+
+td.code, th.code {
+	width: 100%;
+	vertical-align: top;
+	padding-left: 15px;
+	border-left: 1px solid #D89ECC;
+	background: url("grid.png");
+
+}
